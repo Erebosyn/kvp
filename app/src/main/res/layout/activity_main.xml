@@ -11,43 +11,42 @@
         android:layout_height="match_parent"
         android:src="@drawable/arkaplan"
         android:scaleType="centerCrop"/>
-    
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="48sp"
-        android:text="@string/dus_vur"
-        android:layout_above="@+id/basla"
-        android:layout_below="@+id/encokles"
-        android:textColor="@android:color/white"
+        android:text="Düşmanları Vur"
+        android:textColor="#ffffff"
+        android:layout_above="@id/play"
+        android:layout_below="@id/highScoreTxt"
         android:layout_centerHorizontal="true"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/basla"
+        android:text="Başla"
         android:textSize="64sp"
         android:layout_centerInParent="true"
-        android:textColor="@android:color/black"
-        android:id="@+id/basla"/>
+        android:textColor="#000000"
+        android:id="@+id/play"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        android:textColor="@android:color/black"
-        android:text="@string/en_cok"
-        android:id="@+id/encokles"
+        android:textColor="#000000"
+        android:text="Toplam Leş"
+        android:id="@+id/highScoreTxt"
         android:layout_margin="16dp"
-        android:layout_alignParentRight="true"></TextView>
+        android:layout_alignParentRight="true"/>
 
     <ImageView
         android:layout_width="36dp"
         android:layout_height="36dp"
         android:layout_alignParentBottom="true"
         android:layout_margin="16dp"
-        android:src="@drawable/ses"
-        android:id="@+id/seskontrol"/>
-
-
-
+        android:id="@+id/volumeCtrl"
+        android:src="@drawable/ses"/>
 
 </RelativeLayout>
